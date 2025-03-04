@@ -1,0 +1,21 @@
+/*how to acess class using object from main method*/
+public class laptop {
+    String name="lenava";
+    int price=9;
+    int intel=7;
+    double RAM=4;
+    
+    public static void main(String[] args) {
+        laptop lap1 = new laptop();
+        lap1.name="hp";
+        lap1.price=5;
+            System.out.println("");
+
+        laptop lap2 = new laptop();
+        lap2.intel=7;
+        lap2.RAM=9.0;
+       System.out.println(lap2.intel);
+
+        
+    }
+}
