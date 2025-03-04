@@ -1,0 +1,18 @@
+class mobile{
+    void iphone(){
+        System.out.println("this is iphone");
+    }
+    void samsung(){
+        System.out.println("this is samsung phone");
+    }
+    void oppo(){
+        System.out.println("this is oppo phone");
+    }
+    
+    public static void main(String[]args){
+        mobile mob=new mobile();
+        mob.iphone();
+        mob.samsung();
+        mob.oppo();
+    }
+}
