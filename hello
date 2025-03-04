@@ -1,0 +1,8 @@
+public class hello {
+    int tea=20;
+    int coffee=30;
+    public static void main(String[] args) {
+        hello s1=new hello();
+        System.out.println(s1.coffee);
+    }
+}
